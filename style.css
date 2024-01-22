@@ -52,6 +52,7 @@ p{
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 700;
+    border: none;
 }
 
 .hero{
@@ -70,4 +71,18 @@ p{
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder{
+    border: solid 2px #3882F6;
+    border-radius: 15px;
+}
+
+.call-to-action{
+    background-color: #3882F6;
 }
