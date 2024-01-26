@@ -41,9 +41,16 @@ h1{
     color: #F9FAF8;
 }
 
+h2{
+    font-size: ;
+}
 p{
-    color:#E5E7EB;
+    
     font-size: 18px;
+}
+
+.hero p {
+    color:#E5E7EB;
 }
 
 .button{
@@ -76,13 +83,56 @@ p{
 .body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .placeholder{
     border: solid 2px #3882F6;
     border-radius: 15px;
+    width: 200px;
+    height: 200px;
 }
 
 .call-to-action{
     background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.products-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+}
+
+
+.testimonial{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial p{
+    font-size: 36px;
 }
