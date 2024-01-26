@@ -1,6 +1,8 @@
 *{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato';
 }
 
 .hero{
@@ -113,13 +115,22 @@ p{
     background-color: #FFFFFF;
 }
 
-
+.products-div h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
 .card{
     display: flex;
     flex-direction: column;
-    font-weight: 900;
+    gap: 10px;
+    color: #1F2937;
+    margin: 20px 0;
 }
 
+.card h2{
+    margin: 20px 0px;
+}
 
 .testimonial{
     background-color: #E5E7EB;
@@ -128,6 +139,7 @@ p{
     color:#1F2937;
     text-align: center;
     height: 60vh;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,4 +147,43 @@ p{
 
 .testimonial p{
     font-size: 36px;
+}
+
+.testimonial p strong{
+    align-self: flex-end;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px;
+    width: 80vw;
+    height: 20vh;
+}
+
+.call-to-action button{
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+}
+
+.call-to-action-wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
 }
